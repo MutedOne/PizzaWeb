@@ -1,0 +1,521 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+*{
+
+	font-family: 'Libre Franklin', sans-serif;
+	list-style-type: none;
+
+
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.parallax {
+  /* The image used */
+  background-image: url("img/pizza-para.jpg");
+  opacity: 0.9;
+  /* Set a specific height */
+  min-height: 700px;
+  width: 100vw!important;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+
+}
+.parallax2 {
+  /* The image used */
+  background-image: url("img/pizza-fresh.jpg");
+  opacity: 0.9;
+  overflow-x: hidden;
+  /* Set a specific height */
+  min-height: 700px;
+  width: 100vw!important;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.navbar{
+	z-index: 2000;
+}
+.nav-item .nav-link{
+	color: #ffffff!important;
+	overflow-x: hidden;
+}
+.navbar-toggler-anim{
+	overflow-x: hidden;
+	transform: scaleY(-1);
+	transition: 0.2s;
+}
+.navbar-toggler-anim2{
+	overflow-x: hidden;
+	transform: scaleY(1);
+	transition: 0.2s;
+}
+.navbar-toggler-x{
+	overflow-x: hidden;
+	display: none;
+	width: 30px;
+	height: 30px;
+}
+.navbar-toggler-x i{
+	overflow-x: hidden;
+	font-size: 30px;
+	width: 30px;
+	height: 30px;
+}
+.cons{
+	overflow-x: hidden;
+	background-color: red;
+}
+#banner{
+	overflow-x: hidden;
+	margin-top: 250px!important;
+	color: #ffffff;
+	opacity: 1;
+}
+#banner #fh1 h1{
+	overflow-x: hidden;
+	font-family: 'Cookie', cursive;
+
+}
+#banner .pizza{
+	
+	padding: 0;
+	margin: 0;
+	font-size: 110px;
+	 font-weight: bolder!important;
+}
+
+.arrow30{
+	overflow-x: hidden;
+	width: 50px;
+	border: 2px solid #ffffff;
+	padding: 0;
+	margin: 3px;
+}
+.arrow50{
+	overflow-x: hidden;
+	margin: 3px;
+	padding: 0;
+	width: 30px;
+	border: 2px solid #ffffff;
+}
+.btn-dark{
+	overflow-x: hidden;
+	background-color: transparent;
+	border: 2px solid #ffffff;
+}
+#story{
+	padding: 0;
+	margin: 0;
+overflow-x: hidden;
+	border-top: 6px solid #343A40;
+}
+#story h4{
+	overflow-x: hidden;
+	margin: 2px 100px;
+}
+#storypas{
+	overflow-x: hidden;
+	font-size: 58px!important;
+	font-weight: bolder!important;
+}
+#pizza-guy{
+	overflow-x: hidden;
+	width: 50%;
+}
+#pizza-offer2{
+	
+	overflow: hidden;
+	margin-top: 0;
+	margin-left: 0;
+	width: 0;
+	height: 0;
+	border: 10px solid #ffffff; 
+	color: #ffffff;
+	transform: rotate(40deg);
+	position: relative;
+}
+#pizza-offer{
+	overflow: hidden;
+	margin-top: 0;
+	width: 0;
+	height: 0;
+	border: 10px solid #ffffff; 
+	color: #ffffff;
+	transform: rotate(40deg);
+	margin-bottom: 0px;
+	position: relative;
+}
+
+#pizza-offer .pizza-offer-text ,#pizza-offer2 .pizza-offer-text  {
+	position: absolute;
+	padding: 25%;
+	width: 100%;
+	height: 100%;
+	font-weight: bolder!important;
+	transform:rotate(-40deg);
+	
+}
+#pizza-offer .pizza-offer-text{
+	padding: 32%;
+}
+#reservation{
+
+	padding-right: 0;
+	padding-left: 0;
+	overflow-x: hidden;
+	border-top: 6px solid #343A40!important;
+}
+#reservation h1{
+	font-size: 58px;
+	font-weight: bolder;
+}
+
+#dateofbirth {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 3px 5px;
+  box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+  
+}
+.pizza-image,#pizza-gal{
+	margin: 0;
+	padding: 0;
+}
+#pizza-style{
+	padding-left: 0!important;
+	padding-right: 0!important;
+}
+.pizza-image img{
+	height: 100%;
+	width: 100%;
+}
+
+.time-list{
+	height: 250px;
+	overflow-y: scroll;
+
+}
+.pizza-gal2{
+
+	padding: 0;
+	margin: 0;
+}
+.gal-this-anim{
+	
+	animation-name:gal-effect ;
+	animation-duration: .2s;
+}
+#gal-this{
+	padding-left: 0!important;
+	padding-right: 0!important;
+	background-color: #ffffff;
+}
+@keyframes gal-effect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+#private{
+	border-top: 10px solid #343A40!important; 
+	padding: 0;
+}
+#private h4{
+	margin-top: 0;
+	padding-top: 0;
+}
+#private h1{
+	font-weight: 900!important;
+}
+#private .para p{
+	width: 50%;
+}
+#slice{
+	padding: 0;
+	margin-right: 0px!important;
+	margin-left: 0px!important;
+}
+#slice h1{
+font-weight: bolder!important;
+}
+#slice-map{
+	
+	height: 20%!important;
+
+}
+
+.slice-up{
+	font-size:50px;
+}
+#join{
+	font-weight: bolder!important;
+}
+#slice-icon i{
+	
+	color: #000000;
+}
+#sli-r{
+	margin-right: 0!important;
+	margin-left: 0!important;
+}
+#slice-right{
+
+	padding-right: 0!important;
+	padding-left: 0!important;
+	margin-right: 0!important;
+	margin-left: 0!important;
+}
+#slice-a,#slice-a ul{
+	padding-right: 0!important;
+	padding-left: 0!important;
+}
+#online-background,#menu-background{
+	background-image: url("img/pizza-order.jpg");
+  	 background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  height: 25rem;
+	 
+	 position: relative;
+	
+}
+#online-order,#online-menu{
+	position: absolute;
+	top: 15rem!important;
+	margin: auto!important;
+	padding-right: 0;
+	padding-left: 0;
+	overflow-x: hidden;
+	
+}
+
+#online-order p{
+	margin-bottom: 0;
+}
+#online-order h1{
+	font-size: 3.5rem;
+}
+
+
+.order-first{
+
+	padding-left: 0;
+	padding-right: 0;
+}
+.order-close{
+
+	background-color: rgb(240, 173, 78,.8)!important;
+}
+#order-third{
+	padding-left: 0;
+	padding-right: 0;
+}
+#online-row{
+	overflow-x: hidden;
+	padding-left: 0!important;
+	padding-right: 0!important;
+	margin-left: 0!important;
+	margin-right: 0!important;
+}
+.third-text{
+	opacity: .7;
+}
+#textthis{
+	display: none;
+}
+.fa-shopping-bag{
+	color: #212529!important;
+}
+.order-first .border-left, #order-third .border-top{
+	border-width:5px !important;
+}
+#order-first-content{
+	padding-left: 0;
+	padding-right: 0;
+}
+#order-first-content{
+	border-top: 3px solid grey!important;
+	border-bottom: 3px solid grey!important;
+}
+#pizzas{
+	display: none;
+}
+#borderanti{
+	width: 17em;
+}
+#order-drop{
+
+}
+@keyframes gal-effect {
+  from {
+  	
+  	opacity: 0;
+  	
+  }
+  to {
+  
+  	opacity: 1;
+  	
+  }
+}
+.pageanim{
+	
+	animation-name: pageshow;
+	animation-duration: 1s;
+}
+
+#menu-pasti p,#menu-pizzas p{
+	opacity: .8;
+}
+.menu-price{
+	opacity: 1!important;
+}
+#menu-pasti hr,#menu-pizzas hr{
+	width: 9.4rem;
+}
+@media only screen and (max-width: 845px) {
+
+	.parallax {
+		min-height: 500px;
+	}
+	#banner{
+		margin-top: 200px!important;
+	}
+	 #banner .pizza{
+	
+		padding: 0;
+		margin: 0;
+		font-size: 80px;
+		 font-weight: bolder!important;
+	}
+	#slice h1{
+	
+			margin-bottom: 10px!important;
+	}
+}
+
+
+@keyframes pageshow {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 758px) {
+	#storypas{
+		font-size: 30px!important;
+	}
+	#pizza-offer{
+	margin-top: 50px;
+	}
+	.slice-row{
+		margin-top: 0!important;
+	}
+	
+}
+@media only screen and (max-width: 665px) {
+	 #banner .pizza{
+	
+		padding: 0;
+		margin: 0;
+		font-size: 50px;
+		 font-weight: bolder!important;
+	}
+	#banner h5{
+		font-size: 1rem;
+	}
+	#banner #fh1 h1{
+	font-size: 2rem;
+	}
+	#reservation h1{
+		font-size: 40px;
+	}
+	#slice h1{
+			font-size: 2rem;
+			margin-bottom: 20px!important;
+	}
+}
+@media only screen and (max-width: 600px) {
+	 #pizza-guy{
+		
+		width: 85%;
+	}
+	#story h4{
+		font-size: 1rem;
+	}
+	#private .para p{
+		width: 70%;
+	}
+
+}
+@media only screen and (max-width: 540px) {
+	#private h1{
+		font-size: 1.7rem;
+	}
+	
+}
+@media only screen and (max-width: 485px) {
+	.parallax {
+		min-height: 400px;
+	}
+	.parallax2 {
+		min-height: 400px!important;
+	}
+	#banner{
+		margin-top: 150px!important;
+	}
+	#banner #fh1 h1{
+	font-size: 1.5rem;
+	}
+	 #banner .pizza{
+		font-size: 30px;
+	}
+	#banner h5{
+		font-size: .7rem;
+	}
+	#reservation h1{
+		font-size: 30px;
+	}
+	#private h4{
+		font-size: .7rem;
+		padding-right: 35px!important;
+		padding-left: 35px!important;
+	}
+	#pizza-offer{
+	width: 250px;
+	height: 250px;
+	margin-top: 60px;
+	
+	}
+	#pizza-offer2{
+	width: 250px;
+	height: 250px;
+	
+	}
+	.pizza-text{
+		position: absolute;
+		transform: rotate(-40deg);
+		top: 24%;
+		left: 7%;
+		font-weight: bolder;
+	}
+	.piz-t{
+		top: 25%;
+	}
+	#slice h1{
+			font-size: 2rem;
+	}
+
+}
